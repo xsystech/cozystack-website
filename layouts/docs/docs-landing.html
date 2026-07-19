@@ -1,0 +1,48 @@
+{{ define "main" }}
+<div class="td-content">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.description }}<div class="lead">{{ . | markdownify }}</div>{{ end }}
+
+  {{- $latestID := .Site.Params.latest_version_id -}}
+  {{- $latestVersion := dict -}}
+  {{- $olderVersions := slice -}}
+  {{- range .Site.Params.versions -}}
+    {{- if eq .id $latestID -}}
+      {{- $latestVersion = . -}}
+    {{- else if not .hidden -}}
+      {{- $olderVersions = $olderVersions | append . -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{ with $latestVersion }}
+  <p><strong>Новым пользователям:</strong> рекомендуем начать с документации версии <a href="{{ .url }}">{{ .version }}</a> - текущий стабильный релиз.</p>
+  {{ end }}
+
+  {{ .Content }}
+
+  <h3>Доступные версии</h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Версия</th>
+        <th>Статус</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{- range .Site.Params.versions -}}
+        {{- if not .hidden -}}
+        {{- $isLatest := eq .id $latestID -}}
+        {{- $status := "Предыдущий релиз" -}}
+        {{- if $isLatest -}}
+          {{- $status = "Актуальный (stable)" -}}
+        {{- end -}}
+        <tr>
+          <td><a href="{{ .url }}">{{ .version }}</a></td>
+          <td>{{ $status }}</td>
+        </tr>
+        {{- end -}}
+      {{- end -}}
+    </tbody>
+  </table>
+</div>
+{{ end }}

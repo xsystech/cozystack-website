@@ -18,11 +18,12 @@
     {{- if $currentVersionLabel -}}
       {{ $currentVersionLabel }}
     {{- else -}}
-      {{ .Site.Params.version_menu | default "Versions" }}
+      {{ .Site.Params.version_menu | default "Версии" }}
     {{- end -}}
   </button>
   <ul class="version-switcher__menu dropdown-menu" aria-labelledby="versionSwitcherButton">
     {{- range .Site.Params.versions }}
+    {{- if not .hidden }}
     {{- $targetPath := .url -}}
     {{- if $currentVersionUrl -}}
       {{- $subPath := strings.TrimPrefix $currentVersionUrl $currentPath -}}
@@ -37,6 +38,7 @@
         {{- .version -}}
       </a>
     </li>
+    {{- end }}
     {{- end }}
   </ul>
 </div>

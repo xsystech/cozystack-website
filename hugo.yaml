@@ -3,6 +3,19 @@ title: Cozystack
 enableRobotsTXT: true
 enableEmoji: true
 
+# Blog taxonomies: two independent axes used by the blog filter UI.
+#   article_types: release, case, how-to, tech-article, news
+#   topics:        platform, postgresql, kubernetes, cilium, talos, opensearch,
+#                  kubevirt, networking, storage, security, events, community, gpu
+# Hugo will generate list pages at /article-types/<slug>/ and /topics/<slug>/.
+taxonomies:
+  # Hugo defaults (preserved so nothing breaks if anyone uses them later):
+  tag: tags
+  category: categories
+  # Blog-specific axes used by the filter UI:
+  article_type: article_types
+  topic: topics
+
 # Language configuration
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false
@@ -50,10 +63,13 @@ module:
       disable: false
   mounts:
     # Mount local content
+    # Note: `next/` is the permanent trunk for unreleased docs. It is mounted here
+    # (visible in local dev and Netlify deploy previews) and excluded from
+    # production builds via `config/production/hugo.yaml`.
     - source: content/en
       target: content
-      excludeFiles:
-        - '**/_include/*'
+      files:
+        - '! **/_include/*'
     # Mount npm dependencies for Docsy
     - source: node_modules/bootstrap
       target: assets/vendor/bootstrap
@@ -99,9 +115,10 @@ permalinks:
 
 
 params:
-  description: Free Cloud Platform based on Kubernetes
-  copyright: Cozystack a Series of LF Projects, LLC
+  description: Cozystack — open-source cloud platform on Kubernetes for managed VMs, databases, S3 storage, and GPU workloads. CNCF Sandbox project.
+  copyright: Cozystack a Series of LF Projects, LLC, Русификация сайта и документации - (C) XSYSTECH, Katamarina
   github_repo: https://github.com/katamarina-ru/cozystack-website/
+  ahrefsAnalytics: sEZ/gu88M21DndmPulYRFw
   github_branch: main
   github_project_repo: https://github.com/cozystack/cozystack
   slack: https://cloud-native.slack.com/messages/cozystack
@@ -111,10 +128,27 @@ params:
   search:
     algolia: {}
   offlineSearch: false
-  version_menu: "Versions"
+  version_menu: "Версии"
   version_menu_pagelinks: true
-  latest_version_id: "v1.2"
+  latest_version_id: "v1.5"
   versions:
+    - version: "v1.5"
+      url: "/docs/v1.5/"
+      id: "v1.5"
+      order: 7
+    - version: "v1.4"
+      url: "/docs/v1.4/"
+      id: "v1.4"
+      order: 6
+    - version: "v1.3"
+      url: "/docs/v1.3/"
+      id: "v1.3"
+      order: 5
+    - version: "next"
+      url: "/docs/next/"
+      id: "next"
+      order: 999
+      hidden: true
     - version: "v1.2"
       url: "/docs/v1.2/"
       id: "v1.2"
@@ -164,17 +198,17 @@ params:
         url: https://www.linkedin.com/company/aenix-io
         icon: fab fa-linkedin
         desc: Join the Flux Community group on LinkedIn!
-      - name: RSS Feed
+      - name: RSS лента
         url: /blog/index.xml
         icon: fa fa-rss
         desc: Subscribe to the RSS feed of our blog!
-      - name: Support
-        url: https://cozystack.io/support/
+      - name: Техническая поддержка
+        url: https://cozystack.ru/support/
         icon: fas fa-comments
         desc: Get enterprise-grade support.
     # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
     developer:
-      - name: Cozystack project on GitHub
+      - name: Проект Cozystack на GitHub
         url: https://github.com/cozystack/cozystack
         icon: fab fa-github
         desc: Development takes place here!
@@ -183,7 +217,7 @@ params:
         icon: fab fa-slack
         desc: Chat with other project developers
       - name: Telegram
-        url: https://t.me/cozystack/
+        url: https://t.me/cozystack_ru/
         icon: fab fa-telegram
         desc: Chat with other project developers
 
@@ -193,19 +227,23 @@ menus:
   - name: OSS Health
     identifier: oss-health
     weight: 35
-  - name: DevStats
-    url: /oss-health/devstats/
+  - name: Телеметрия
+    url: /oss-health/telemetry/
     parent: oss-health
     weight: 1
+  - name: Dev-статистика
+    url: /oss-health/devstats/
+    parent: oss-health
+    weight: 2
   - name: OpenSSF
     url: /oss-health/openssf/
     parent: oss-health
-    weight: 2
+    weight: 3
   - name: OSS Insight
     url: /oss-health/oss-insight/
     parent: oss-health
-    weight: 3
-  - name: Enterprise support
+    weight: 4
+  - name: Коммерческая поддержка
     url: /support
     weight: 5
   - name: GitHub
