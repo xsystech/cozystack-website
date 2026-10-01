@@ -2,487 +2,487 @@
   "periods": {
     "month": {
       "description": "Last 30 days",
-      "issues_closed": "226",
-      "issues_opened": "262",
+      "issues_closed": "286",
+      "issues_opened": "335",
       "label": "Month",
       "languages": [
         {
           "name": "Go",
-          "value": "2,755,639"
-        },
-        {
-          "name": "TypeScript",
-          "value": "664,118"
+          "value": "5,318,732"
         },
         {
           "name": "Shell",
-          "value": "650,586"
+          "value": "4,238,535"
+        },
+        {
+          "name": "TypeScript",
+          "value": "866,782"
         },
         {
           "name": "Go Template",
-          "value": "378,392"
+          "value": "565,041"
         },
         {
-          "name": "Mustache",
-          "value": "132,932"
+          "name": "Makefile",
+          "value": "178,091"
         }
       ],
       "range": {
-        "from": "2026-06-01",
-        "to": "2026-07-01"
+        "from": "2026-09-01",
+        "to": "2026-10-01"
       },
       "summary_cards": [
         {
           "label": "Stars",
-          "value": "2,134"
+          "value": "2,243"
         },
         {
           "label": "Forks",
-          "value": "176"
+          "value": "207"
         },
         {
           "label": "Watchers",
-          "value": "26"
+          "value": "25"
         },
         {
           "label": "Open Issues",
-          "value": "355"
+          "value": "693"
         },
         {
           "label": "Commits",
-          "value": "505"
+          "value": "656"
         },
         {
           "label": "PRs Merged",
-          "value": "155"
+          "value": "208"
         }
       ],
       "top_contributors": [
         {
           "name": "lexfrei",
           "url": "https://github.com/lexfrei",
-          "value": "161"
+          "value": "204"
         },
         {
-          "name": "myasnikovdaniil",
-          "url": "https://github.com/myasnikovdaniil",
-          "value": "140"
-        },
-        {
-          "name": "claude",
-          "url": "https://github.com/claude",
-          "value": "113"
-        },
-        {
-          "name": "kvaps",
-          "url": "https://github.com/kvaps",
-          "value": "47"
+          "name": "IvanHunters",
+          "url": "https://github.com/IvanHunters",
+          "value": "89"
         },
         {
           "name": "scooby87",
           "url": "https://github.com/scooby87",
-          "value": "18"
-        },
-        {
-          "name": "cozystack-ci[bot]",
-          "url": "https://github.com/apps/cozystack-ci",
-          "value": "6"
-        },
-        {
-          "name": "sircthulhu",
-          "url": "https://github.com/sircthulhu",
-          "value": "6"
-        },
-        {
-          "name": "IvanHunters",
-          "url": "https://github.com/IvanHunters",
-          "value": "6"
-        },
-        {
-          "name": "lllamnyp",
-          "url": "https://github.com/lllamnyp",
-          "value": "5"
-        },
-        {
-          "name": "shreyaabaranwal",
-          "url": "https://github.com/shreyaabaranwal",
-          "value": "2"
-        }
-      ],
-      "top_pr_authors": [
-        {
-          "name": "lexfrei",
-          "url": "https://github.com/lexfrei",
-          "value": "84"
-        },
-        {
-          "name": "myasnikovdaniil",
-          "url": "https://github.com/myasnikovdaniil",
-          "value": "66"
-        },
-        {
-          "name": "cozystack-ci[bot]",
-          "url": "https://github.com/apps/cozystack-ci",
-          "value": "24"
-        },
-        {
-          "name": "kvaps",
-          "url": "https://github.com/kvaps",
-          "value": "22"
-        },
-        {
-          "name": "github-actions[bot]",
-          "url": "https://github.com/apps/github-actions",
-          "value": "21"
-        },
-        {
-          "name": "scooby87",
-          "url": "https://github.com/scooby87",
-          "value": "12"
-        },
-        {
-          "name": "IvanHunters",
-          "url": "https://github.com/IvanHunters",
-          "value": "12"
-        },
-        {
-          "name": "renovate[bot]",
-          "url": "https://github.com/apps/renovate",
-          "value": "8"
-        },
-        {
-          "name": "mattia-eleuteri",
-          "url": "https://github.com/mattia-eleuteri",
-          "value": "4"
-        },
-        {
-          "name": "sircthulhu",
-          "url": "https://github.com/sircthulhu",
-          "value": "2"
-        }
-      ]
-    },
-    "quarter": {
-      "description": "Last 90 days",
-      "issues_closed": "505",
-      "issues_opened": "610",
-      "label": "Quarter",
-      "languages": [
-        {
-          "name": "Go",
-          "value": "2,755,639"
-        },
-        {
-          "name": "TypeScript",
-          "value": "664,118"
-        },
-        {
-          "name": "Shell",
-          "value": "650,586"
-        },
-        {
-          "name": "Go Template",
-          "value": "378,392"
-        },
-        {
-          "name": "Mustache",
-          "value": "132,932"
-        }
-      ],
-      "range": {
-        "from": "2026-04-02",
-        "to": "2026-07-01"
-      },
-      "summary_cards": [
-        {
-          "label": "Stars",
-          "value": "2,134"
-        },
-        {
-          "label": "Forks",
-          "value": "176"
-        },
-        {
-          "label": "Watchers",
-          "value": "26"
-        },
-        {
-          "label": "Open Issues",
-          "value": "355"
-        },
-        {
-          "label": "Commits",
-          "value": "1,367"
-        },
-        {
-          "label": "PRs Merged",
-          "value": "401"
-        }
-      ],
-      "top_contributors": [
-        {
-          "name": "lexfrei",
-          "url": "https://github.com/lexfrei",
-          "value": "359"
-        },
-        {
-          "name": "myasnikovdaniil",
-          "url": "https://github.com/myasnikovdaniil",
-          "value": "321"
-        },
-        {
-          "name": "Arsolitt",
-          "url": "https://github.com/Arsolitt",
-          "value": "235"
-        },
-        {
-          "name": "claude",
-          "url": "https://github.com/claude",
-          "value": "203"
-        },
-        {
-          "name": "kvaps",
-          "url": "https://github.com/kvaps",
-          "value": "80"
-        },
-        {
-          "name": "IvanHunters",
-          "url": "https://github.com/IvanHunters",
-          "value": "53"
-        },
-        {
-          "name": "scooby87",
-          "url": "https://github.com/scooby87",
-          "value": "18"
-        },
-        {
-          "name": "cozystack-ci[bot]",
-          "url": "https://github.com/apps/cozystack-ci",
-          "value": "17"
-        },
-        {
-          "name": "kitsunoff",
-          "url": "https://github.com/kitsunoff",
-          "value": "17"
-        },
-        {
-          "name": "sircthulhu",
-          "url": "https://github.com/sircthulhu",
-          "value": "14"
-        }
-      ],
-      "top_pr_authors": [
-        {
-          "name": "myasnikovdaniil",
-          "url": "https://github.com/myasnikovdaniil",
-          "value": "149"
-        },
-        {
-          "name": "lexfrei",
-          "url": "https://github.com/lexfrei",
-          "value": "122"
-        },
-        {
-          "name": "github-actions[bot]",
-          "url": "https://github.com/apps/github-actions",
-          "value": "70"
-        },
-        {
-          "name": "cozystack-ci[bot]",
-          "url": "https://github.com/apps/cozystack-ci",
-          "value": "49"
-        },
-        {
-          "name": "kvaps",
-          "url": "https://github.com/kvaps",
-          "value": "47"
-        },
-        {
-          "name": "IvanHunters",
-          "url": "https://github.com/IvanHunters",
-          "value": "45"
-        },
-        {
-          "name": "Arsolitt",
-          "url": "https://github.com/Arsolitt",
-          "value": "20"
-        },
-        {
-          "name": "matthieu-robin",
-          "url": "https://github.com/matthieu-robin",
-          "value": "17"
+          "value": "83"
         },
         {
           "name": "androndo",
           "url": "https://github.com/androndo",
+          "value": "73"
+        },
+        {
+          "name": "myasnikovdaniil",
+          "url": "https://github.com/myasnikovdaniil",
+          "value": "54"
+        },
+        {
+          "name": "yankawai",
+          "url": "https://github.com/yankawai",
+          "value": "50"
+        },
+        {
+          "name": "themoriarti",
+          "url": "https://github.com/themoriarti",
+          "value": "24"
+        },
+        {
+          "name": "mattia-eleuteri",
+          "url": "https://github.com/mattia-eleuteri",
+          "value": "22"
+        },
+        {
+          "name": "kvaps",
+          "url": "https://github.com/kvaps",
+          "value": "13"
+        },
+        {
+          "name": "tym83",
+          "url": "https://github.com/tym83",
+          "value": "8"
+        }
+      ],
+      "top_pr_authors": [
+        {
+          "name": "lexfrei",
+          "url": "https://github.com/lexfrei",
+          "value": "109"
+        },
+        {
+          "name": "myasnikovdaniil",
+          "url": "https://github.com/myasnikovdaniil",
+          "value": "37"
+        },
+        {
+          "name": "github-actions[bot]",
+          "url": "https://github.com/apps/github-actions",
+          "value": "33"
+        },
+        {
+          "name": "IvanHunters",
+          "url": "https://github.com/IvanHunters",
+          "value": "29"
+        },
+        {
+          "name": "yankawai",
+          "url": "https://github.com/yankawai",
+          "value": "27"
+        },
+        {
+          "name": "scooby87",
+          "url": "https://github.com/scooby87",
           "value": "16"
         },
         {
           "name": "mattia-eleuteri",
           "url": "https://github.com/mattia-eleuteri",
-          "value": "13"
+          "value": "11"
+        },
+        {
+          "name": "tym83",
+          "url": "https://github.com/tym83",
+          "value": "8"
+        },
+        {
+          "name": "pujitha24",
+          "url": "https://github.com/pujitha24",
+          "value": "7"
+        },
+        {
+          "name": "magic-peach",
+          "url": "https://github.com/magic-peach",
+          "value": "7"
         }
       ]
     },
-    "year": {
-      "description": "Last 365 days",
-      "issues_closed": "1,519",
-      "issues_opened": "1,622",
-      "label": "Year",
+    "quarter": {
+      "description": "Last 90 days",
+      "issues_closed": "666",
+      "issues_opened": "824",
+      "label": "Quarter",
       "languages": [
         {
           "name": "Go",
-          "value": "2,755,639"
-        },
-        {
-          "name": "TypeScript",
-          "value": "664,118"
+          "value": "5,318,732"
         },
         {
           "name": "Shell",
-          "value": "650,586"
+          "value": "4,238,535"
+        },
+        {
+          "name": "TypeScript",
+          "value": "866,782"
         },
         {
           "name": "Go Template",
-          "value": "378,392"
+          "value": "565,041"
         },
         {
-          "name": "Mustache",
-          "value": "132,932"
+          "name": "Makefile",
+          "value": "178,091"
         }
       ],
       "range": {
-        "from": "2025-07-01",
-        "to": "2026-07-01"
+        "from": "2026-07-03",
+        "to": "2026-10-01"
       },
       "summary_cards": [
         {
           "label": "Stars",
-          "value": "2,134"
+          "value": "2,243"
         },
         {
           "label": "Forks",
-          "value": "176"
+          "value": "207"
         },
         {
           "label": "Watchers",
-          "value": "26"
+          "value": "25"
         },
         {
           "label": "Open Issues",
-          "value": "355"
+          "value": "693"
         },
         {
           "label": "Commits",
-          "value": "2,763"
+          "value": "2,027"
         },
         {
           "label": "PRs Merged",
-          "value": "1,306"
+          "value": "549"
         }
       ],
       "top_contributors": [
         {
           "name": "lexfrei",
           "url": "https://github.com/lexfrei",
-          "value": "499"
+          "value": "590"
+        },
+        {
+          "name": "IvanHunters",
+          "url": "https://github.com/IvanHunters",
+          "value": "363"
+        },
+        {
+          "name": "myasnikovdaniil",
+          "url": "https://github.com/myasnikovdaniil",
+          "value": "287"
+        },
+        {
+          "name": "scooby87",
+          "url": "https://github.com/scooby87",
+          "value": "159"
         },
         {
           "name": "claude",
           "url": "https://github.com/claude",
-          "value": "495"
+          "value": "154"
+        },
+        {
+          "name": "androndo",
+          "url": "https://github.com/androndo",
+          "value": "150"
         },
         {
           "name": "kvaps",
           "url": "https://github.com/kvaps",
-          "value": "439"
+          "value": "112"
         },
         {
-          "name": "myasnikovdaniil",
-          "url": "https://github.com/myasnikovdaniil",
-          "value": "348"
+          "name": "yankawai",
+          "url": "https://github.com/yankawai",
+          "value": "56"
         },
         {
-          "name": "Arsolitt",
-          "url": "https://github.com/Arsolitt",
-          "value": "235"
-        },
-        {
-          "name": "IvanHunters",
-          "url": "https://github.com/IvanHunters",
-          "value": "180"
+          "name": "mattia-eleuteri",
+          "url": "https://github.com/mattia-eleuteri",
+          "value": "31"
         },
         {
           "name": "lllamnyp",
           "url": "https://github.com/lllamnyp",
-          "value": "135"
-        },
-        {
-          "name": "sircthulhu",
-          "url": "https://github.com/sircthulhu",
-          "value": "83"
-        },
-        {
-          "name": "cozystack-bot",
-          "url": "https://github.com/cozystack-bot",
-          "value": "65"
-        },
-        {
-          "name": "nbykov0",
-          "url": "https://github.com/nbykov0",
-          "value": "46"
+          "value": "29"
         }
       ],
       "top_pr_authors": [
         {
-          "name": "kvaps",
-          "url": "https://github.com/kvaps",
-          "value": "330"
-        },
-        {
-          "name": "github-actions[bot]",
-          "url": "https://github.com/apps/github-actions",
-          "value": "224"
+          "name": "lexfrei",
+          "url": "https://github.com/lexfrei",
+          "value": "248"
         },
         {
           "name": "myasnikovdaniil",
           "url": "https://github.com/myasnikovdaniil",
-          "value": "166"
-        },
-        {
-          "name": "lexfrei",
-          "url": "https://github.com/lexfrei",
-          "value": "149"
-        },
-        {
-          "name": "cozystack-bot",
-          "url": "https://github.com/cozystack-bot",
           "value": "141"
         },
         {
-          "name": "lllamnyp",
-          "url": "https://github.com/lllamnyp",
-          "value": "114"
+          "name": "github-actions[bot]",
+          "url": "https://github.com/apps/github-actions",
+          "value": "81"
         },
         {
           "name": "IvanHunters",
           "url": "https://github.com/IvanHunters",
-          "value": "108"
+          "value": "66"
+        },
+        {
+          "name": "androndo",
+          "url": "https://github.com/androndo",
+          "value": "35"
+        },
+        {
+          "name": "yankawai",
+          "url": "https://github.com/yankawai",
+          "value": "34"
+        },
+        {
+          "name": "kvaps",
+          "url": "https://github.com/kvaps",
+          "value": "32"
+        },
+        {
+          "name": "scooby87",
+          "url": "https://github.com/scooby87",
+          "value": "31"
+        },
+        {
+          "name": "mattia-eleuteri",
+          "url": "https://github.com/mattia-eleuteri",
+          "value": "24"
+        },
+        {
+          "name": "renovate[bot]",
+          "url": "https://github.com/apps/renovate",
+          "value": "20"
+        }
+      ]
+    },
+    "year": {
+      "description": "Last 365 days",
+      "issues_closed": "1,926",
+      "issues_opened": "2,200",
+      "label": "Year",
+      "languages": [
+        {
+          "name": "Go",
+          "value": "5,318,732"
+        },
+        {
+          "name": "Shell",
+          "value": "4,238,535"
+        },
+        {
+          "name": "TypeScript",
+          "value": "866,782"
+        },
+        {
+          "name": "Go Template",
+          "value": "565,041"
+        },
+        {
+          "name": "Makefile",
+          "value": "178,091"
+        }
+      ],
+      "range": {
+        "from": "2025-10-01",
+        "to": "2026-10-01"
+      },
+      "summary_cards": [
+        {
+          "label": "Stars",
+          "value": "2,243"
+        },
+        {
+          "label": "Forks",
+          "value": "207"
+        },
+        {
+          "label": "Watchers",
+          "value": "25"
+        },
+        {
+          "label": "Open Issues",
+          "value": "693"
+        },
+        {
+          "label": "Commits",
+          "value": "4,604"
+        },
+        {
+          "label": "PRs Merged",
+          "value": "1,702"
+        }
+      ],
+      "top_contributors": [
+        {
+          "name": "lexfrei",
+          "url": "https://github.com/lexfrei",
+          "value": "1,070"
+        },
+        {
+          "name": "claude",
+          "url": "https://github.com/claude",
+          "value": "670"
+        },
+        {
+          "name": "myasnikovdaniil",
+          "url": "https://github.com/myasnikovdaniil",
+          "value": "668"
+        },
+        {
+          "name": "IvanHunters",
+          "url": "https://github.com/IvanHunters",
+          "value": "531"
+        },
+        {
+          "name": "kvaps",
+          "url": "https://github.com/kvaps",
+          "value": "435"
+        },
+        {
+          "name": "Arsolitt",
+          "url": "https://github.com/Arsolitt",
+          "value": "271"
+        },
+        {
+          "name": "androndo",
+          "url": "https://github.com/androndo",
+          "value": "192"
+        },
+        {
+          "name": "scooby87",
+          "url": "https://github.com/scooby87",
+          "value": "177"
+        },
+        {
+          "name": "lllamnyp",
+          "url": "https://github.com/lllamnyp",
+          "value": "131"
         },
         {
           "name": "sircthulhu",
           "url": "https://github.com/sircthulhu",
-          "value": "57"
+          "value": "105"
+        }
+      ],
+      "top_pr_authors": [
+        {
+          "name": "lexfrei",
+          "url": "https://github.com/lexfrei",
+          "value": "398"
+        },
+        {
+          "name": "myasnikovdaniil",
+          "url": "https://github.com/myasnikovdaniil",
+          "value": "307"
+        },
+        {
+          "name": "github-actions[bot]",
+          "url": "https://github.com/apps/github-actions",
+          "value": "289"
+        },
+        {
+          "name": "kvaps",
+          "url": "https://github.com/kvaps",
+          "value": "273"
+        },
+        {
+          "name": "IvanHunters",
+          "url": "https://github.com/IvanHunters",
+          "value": "163"
+        },
+        {
+          "name": "cozystack-bot",
+          "url": "https://github.com/cozystack-bot",
+          "value": "103"
+        },
+        {
+          "name": "lllamnyp",
+          "url": "https://github.com/lllamnyp",
+          "value": "97"
+        },
+        {
+          "name": "androndo",
+          "url": "https://github.com/androndo",
+          "value": "67"
         },
         {
           "name": "cozystack-ci[bot]",
           "url": "https://github.com/apps/cozystack-ci",
-          "value": "49"
+          "value": "65"
         },
         {
-          "name": "nbykov0",
-          "url": "https://github.com/nbykov0",
-          "value": "34"
+          "name": "sircthulhu",
+          "url": "https://github.com/sircthulhu",
+          "value": "63"
         }
       ]
     }
@@ -492,5 +492,5 @@
     "url": "https://ossinsight.io/analyze/cozystack/cozystack"
   },
   "title": "OSS Insight",
-  "updated_at": "2026-07-01T05:34:20Z"
+  "updated_at": "2026-10-01T10:50:23Z"
 }
